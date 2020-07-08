@@ -52,7 +52,7 @@ __**Commands List**__
 > \`search\` > **\`search [title]\`**
 > \`skip\`, \`stop\`,  \`pause\`, \`resume\`
 > \`nowplaying\`, \`queue\`, \`volume\`
-> \`address\`, \`version\``
+> \`address\`, \`version\` \`support\``
       )
       .setFooter("©️ 2020 AliexStrasza Development");
     msg.channel.send(helpembed);
@@ -65,6 +65,10 @@ __**Commands List**__
   	return msg.channel.send(
   		"The minecraft server address is **NUBA.g-s.nu**"
   		);
+  if(command === "support")
+    return msg.channel.send(
+        "For help with the bot, contact AliexStrasza#5268"
+	);
   if (command === "play" || command === "p") {
     const voiceChannel = msg.member.voice.channel;
     if (!voiceChannel)
