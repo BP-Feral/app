@@ -51,11 +51,20 @@ __**Commands List**__
 > \`play\` > **\`play [title/url]\`**
 > \`search\` > **\`search [title]\`**
 > \`skip\`, \`stop\`,  \`pause\`, \`resume\`
-> \`nowplaying\`, \`queue\`, \`volume\``
+> \`nowplaying\`, \`queue\`, \`volume\`
+> \`address\`, \`version\``
       )
       .setFooter("©️ 2020 AliexStrasza Development");
     msg.channel.send(helpembed);
   }
+  if (command === "version")
+  	return msg.channel.send(
+  		"The minecraft server is running on version 1.16.1"
+  		);
+  if (command === "address")
+  	return msg.channel.send(
+  		"The minecraft server address is **NUBA.g-s.nu**"
+  		);
   if (command === "play" || command === "p") {
     const voiceChannel = msg.member.voice.channel;
     if (!voiceChannel)
