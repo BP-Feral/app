@@ -1,7 +1,7 @@
 {
-  "name": "music-bot-example",
+  "name": "mcnuba",
   "version": "1.0.0",
-  "description": "Example of a Music Bot project modified by Zealcord, made by iCrawl",
+  "description": "Music bot with minecraft chat support",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -18,7 +18,7 @@
     "Discord",
     "Zealcord"
   ],
-  "author": "Zealcord",
+  "author": "AliexStrasza",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/zealcordNation/music-bot-example/issues"
