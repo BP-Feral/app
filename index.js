@@ -48,12 +48,19 @@ bot.on("message", async msg => {
       .setDescription(
         `
 __**Commands List**__
-> \`play\` > **\`play [title/url]\`**
-> \`search\` > **\`search [title]\`**
-> \`skip\`, \`stop\`,  \`pause\`, \`resume\`
-> \`nowplaying\`, \`queue\`, \`volume\`
-> \`address\`, \`version\` \`support\``
-      )
+> \`play <title/url> / p <title/url>\` - play a music.
+> \`search <title> / sc <title>\` - search for a title then pick a music.
+> \`skip\` - skip the current playing music.
+> \`stop\` - skip all music and disconnect the bot.
+> \`pause\` - pause the current music.
+> \`resume\` - resume the current music.
+> \`nowplaying / np\` - show the title of the current playing music.
+> \`queue / q\` - list the music queue.
+>\`volume <0-100> / vol <0-100>\` - change the volume.
+__**MC Server Related**__
+> \`address\` - get the Minecraft server address.
+> \`version\` - get the Minecraft server version.
+> \`support\` - get in touch with bot owner for help.`)
       .setFooter("©️ 2020 AliexStrasza Development");
     msg.channel.send(helpembed);
   }
