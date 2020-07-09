@@ -56,7 +56,7 @@ __**Commands List**__
 > \`resume\` - resume the current music.
 > \`nowplaying / np\` - show the title of the current playing music.
 > \`queue / q\` - list the music queue.
->\`volume <0-100> / vol <0-100>\` - change the volume.
+> \`volume <0-100> / vol <0-100>\` - change the volume.
 __**MC Server Related**__
 > \`address\` - get the Minecraft server address.
 > \`version\` - get the Minecraft server version.
