@@ -60,7 +60,7 @@ __**Commands List**__
 __**MC Server Related**__
 > \`address\` - get the Minecraft server address.
 > \`version\` - get the Minecraft server version.
-> \`support\` - get in touch with bot owner for help.`)
+> \`support\` - get in touch with the owner for help.`)
       .setFooter("©️ 2020 AliexStrasza Development");
     msg.channel.send(helpembed);
   }
