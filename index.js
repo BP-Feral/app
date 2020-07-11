@@ -213,7 +213,7 @@ Please provide a value to select one of the search results ranging from 1-10.
         "There is nothing playing that I could **`stop`** for you."
       );
     serverQueue.songs = [];
-    //serverQueue.connection.dispatcher.end("Stop command has been used!");
+    serverQueue.connection.dispatcher.end("Stop command has been used!");
     return msg.channel.send("⏹️  **|**  Stop command has been used!");
   } else if (command === "volume" || command === "vol") {
     if (!msg.member.voice.channel)
