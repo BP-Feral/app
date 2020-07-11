@@ -30,7 +30,7 @@ bot.on("shardReconnecting", id => console.log(`Shard ${id} reconnecting...`));
 
 bot.on("message", async msg => {
   // eslint-disable-line
-  if (msg.author.bot) return;
+  //if (msg.author.bot) return;
   if (!msg.content.startsWith(PREFIX)) return;
 
   const args = msg.content.split(" ");
@@ -60,7 +60,7 @@ __**Commands List**__
 __**MC Server Related**__
 > \`address\` - get the Minecraft server address.
 > \`version\` - get the Minecraft server version.
-> \`support\` - get in touch with the owner for help.`)
+> \`support\` - get info about the owner for help.`)
       .setFooter("©️ 2020 AliexStrasza Development");
     msg.channel.send(helpembed);
   }
