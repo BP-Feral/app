@@ -62,10 +62,6 @@ bot.on("message", async msg => {
 	**[02]** <@&787732766178410526>
 	**[03]** <@&787732962330148904>
 	**[04]** <@&787733025995489301>
-	**[05]** <@&787733123936026635>
-	**[06]** <@&787733221109923858>
-	**[07]** <@&787733308427599892>
-	**[08]** <@&787733414647431198>
 	**[09]** <@&787733572923686922>
 	**[10]** <@&787733639240351755>
 	**[11]** <@&787733709033701417>
@@ -83,6 +79,19 @@ bot.on("message", async msg => {
 	.setImage('https://images-ext-1.discordapp.net/external/9txhILoQRmfUxBF2XpSYzfnQ75oi8Myu4fAXRYnA5As/https/media.discordapp.net/attachments/618052760084152320/698167118897872936/NarutoDiscord_PinkPurple_2020.gif')
   	msg.channel.send(image2embed);
 	}
+	
+  if (command === "image3") {
+  	const image3embed = new Discord.MessageEmbed()
+	.setColor("#9a45c4")
+	.setTitle('__Useful commands__')
+	.setDescription(
+	`
+	> **ar!member stat** - check your profile
+	> **ar!member <mention> stat** - check someone's profile
+	>
+	`)
+	msg.channel.send(image3embed);
+  }
 	
   if (command === "help" || command == "cmd") {
     const helpembed = new Discord.MessageEmbed()
