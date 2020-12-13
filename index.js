@@ -80,7 +80,7 @@ bot.on("message", async msg => {
 	Check out <@786475993211863081> to chat with others!
 `)
 	
-  	msg.channel.send(image1embed);
+  	msg.channel.send(image2embed);
 	}
 	
   if (command === "help" || command == "cmd") {
