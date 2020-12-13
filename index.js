@@ -52,7 +52,7 @@ bot.on("message", async msg => {
 	[2] lol
 	[3] lol
 	`)
-	channel.send(image1embed);
+	msg.channel.send(image1embed);
   }
 	
   if (command === "help" || command == "cmd") {
