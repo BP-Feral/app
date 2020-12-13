@@ -80,7 +80,7 @@ bot.on("message", async msg => {
 
 	Check out <#786475993211863081> to chat with others!
 `)
-	
+	.setImage('https://images-ext-1.discordapp.net/external/9txhILoQRmfUxBF2XpSYzfnQ75oi8Myu4fAXRYnA5As/https/media.discordapp.net/attachments/618052760084152320/698167118897872936/NarutoDiscord_PinkPurple_2020.gif')
   	msg.channel.send(image2embed);
 	}
 	
