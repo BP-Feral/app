@@ -53,21 +53,21 @@ bot.on("message", async msg => {
 	.setTitle('__XP Information__')
 	.setDescription(
 	`
-	**XP** is gained if you are active at least **1 minute** on a voice channel,
-	or if you type on any message channels. **AFK** channel doesn't count!
+	**XP** is given if you are active on our server.
+	**AFK** channel doesn't count!
 
 	_Below are the various roles you can obtain with XP_
 
-	**[01]** <@&787732542982717510>
-	**[02]** <@&787732766178410526>
-	**[03]** <@&787732962330148904>
-	**[04]** <@&787733025995489301>
-	**[05]** <@&787733572923686922>
-	**[06]** <@&787733639240351755>
-	**[07]** <@&787733709033701417>
-	**[08]** <@&787733798615253004>
-	**[09]** <@&787733980941647912>
-	**[10]** <@&787734149573509160>
+	**[01] level 5 ** <@&787732542982717510>
+	**[02] level 10** <@&787732766178410526>
+	**[03] level 15** <@&787732962330148904>
+	**[04] level 20** <@&787733025995489301>
+	**[05] level 25** <@&787733572923686922>
+	**[06] level 30** <@&787733639240351755>
+	**[07] level 35** <@&787733709033701417>
+	**[08] level 40** <@&787733798615253004>
+	**[09] level 45** <@&787733980941647912>
+	**[10] level 50** <@&787734149573509160>
 	
 	That pretty much sums up the basics, hope you enjoy your stay!
 
@@ -86,9 +86,11 @@ bot.on("message", async msg => {
 	.setTitle('__Useful commands__')
 	.setDescription(
 	`
-	> **ar!member stat** - check your profile
-	> **ar!member <mention> stat** - check someone's profile
-	>
+	**t!rank** - check your profile level
+	**-play <name/url>** - play music on the curent voice channel
+	**n!play <name/url>** - play music on the curent voice channel
+	**n!search <name>** - show a top 10 list of music from youtube
+		- and then write a number to pick one to play
 	`)
 	msg.channel.send(image3embed);
   }
