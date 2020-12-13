@@ -41,6 +41,20 @@ bot.on("message", async msg => {
   let command = msg.content.toLowerCase().split(" ")[0];
   command = command.slice(PREFIX.length);
 
+  if (command === "image1") {
+  	const image1embed = new Discord.MessageEmbed()
+	.setColor("#9a45c4")
+	.setAuthor(bot.user.tag, bot.user.displayAvatarURL())
+	.setImage('https://media.discordapp.net/attachments/666799928122540032/708909720471339048/NDinfo.gif')
+	.setDescription(
+	`
+	[1] lol
+	[2] lol
+	[3] lol
+	`)
+	channel.send(image1embed);
+  }
+	
   if (command === "help" || command == "cmd") {
     const helpembed = new Discord.MessageEmbed()
       .setColor("#7289DA")
