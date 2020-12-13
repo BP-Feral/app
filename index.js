@@ -44,16 +44,44 @@ bot.on("message", async msg => {
   if (command === "image1") {
   	const image1embed = new Discord.MessageEmbed()
 	.setColor("#9a45c4")
-	.setAuthor(bot.user.tag, bot.user.displayAvatarURL())
 	.setImage('https://media.discordapp.net/attachments/666799928122540032/708909720471339048/NDinfo.gif')
-	.setDescription(
-	`
-	[1] lol
-	[2] lol
-	[3] lol
-	`)
 	msg.channel.send(image1embed);
   }
+  if (command === "image2") {
+  	const image2embed = new Discord.MessageEmbed()
+	.setColor("#9a45c4")
+	.setTitle('__XP Information__')
+	.setDescription(
+	`
+	**XP** is gained if you are active at least 1 minute on a voice channel,
+	or if you type on any message channels. AFK channel doesn't count!
+
+	_Below are the various roles you can obtain with XP_
+
+	[01] <@787732542982717510>
+	[02] <@787732766178410526>
+	[03] <@787732962330148904>
+	[04] <@787733025995489301>
+	[05] <@787733123936026635>
+	[06] <@787733221109923858>
+	[07] <@787733308427599892>
+	[08] <@787733414647431198>
+	[09] <@787733572923686922>
+	[10] <@787733639240351755>
+	[11] <@787733709033701417>
+	[12] <@787733798615253004>
+	[13] <@787733980941647912>
+	[14] <@787734149573509160>
+	
+	That pretty much sums up the basics, hope you enjoy your stay!
+
+	If you have any other queries please send a direct message to <@486607756434997248> and our Support Team will assist you!
+
+	Check out <@786475993211863081> to chat with others!
+`)
+	
+  	msg.channel.send(image1embed);
+	}
 	
   if (command === "help" || command == "cmd") {
     const helpembed = new Discord.MessageEmbed()
