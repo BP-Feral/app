@@ -6,7 +6,7 @@ const dotenv = require("dotenv").config();
 require("./server.js");
 
 const TOKEN = process.env.BOT_TOKEN;
-const PREFIX = n;
+const PREFIX = 'n';
 const GOOGLE_API_KEY = process.env.YTAPI_KEY;
 
 const bot = new Client({
