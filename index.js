@@ -13,7 +13,7 @@ const bot = new Client({
   disableMentions: "all"
 });
 
-const youtube = new YouTube(GOOGLE_API_KEY);
+const youtube = new YouTube("AIzaSyB21D-Dfkn9RwDMp_sthy910rEYTpiZQm8");
 const queue = new Map();
 
 bot.on("warn", console.warn);
